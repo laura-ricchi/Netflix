@@ -1,0 +1,19 @@
+.container {
+  width: 1920px;
+  margin: 0 0 40px 50px;
+}
+.logo {
+  width: 130px;
+  margin-left: 50px;
+}
+.movies-list {
+  display: flex;
+  overflow-x: scroll;
+}
+.movies-list::-webkit-scrollbar {
+  display: none;
+}
+p {
+  color: #e5e5e5;
+  font-weight: bold;
+}
